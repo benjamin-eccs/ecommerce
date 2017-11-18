@@ -1,0 +1,77 @@
+composer update
+
+composer dump-autoload
+
+https://github.com/hcodebr
+https://github.com/benjamin-eccs/ecommerce
+https://github.com/hcodebr/ecommerce
+"SELECT * FROM tb_users a INNER JOIN tb_persons b USING(idperson) ORDER BY b.desperson";
+
+/**
+		pdesperson VARCHAR(64),
+		pdeslogin VARCHAR(64),
+		pdespassword VARCHAR(256),
+		pdesemail VARCHAR(128),
+		pnrphone BIGINT,
+		pinadmin TINYINT
+*/
+		 
+"CALL sp_users_save(:desperson, :deslogin, :despassword, :desemail, :nrphone, :inadmin)";
+"SELECT * FROM tb_users a INNER JOIN tb_persons b USING(idperson) WHERE a.iduser = :iduser";
+CALL `ecommerce`.`sp_usersupdate_save`(<{piduser INT}>, <{pdesperson VARCHAR(64)}>, <{pdeslogin VARCHAR(64)}>, <{pdespassword VARCHAR(256)}>, <{pdesemail VARCHAR(128)}>, <{pnrphone BIGINT}>, <{pinadmin TINYINT}>);
+
+$_SERVER['DOCUMENT_ROOT'].DIRECTORY_SEPARATOR."views".DIRECTORY_SEPARATOR."categories-menu.html"
+
+
+http://ecommerce.dev/categories/res/site/js/jquery.sticky.js
+
+
+sp_products_save
+tb_categories
+idcategory 
+idproduct
+desproduct
+vlprice
+vlwidth
+vlheight
+vllength
+vlweight
+desurl
+
+
+Smartphone Motorola Moto G5 Plus
+1135.23
+15.20
+7.40
+0.70
+0.16
+smartphone-motorola-moto-g5-plus
+
+Celular Multilaser New Up
+76.35
+15.20
+7.40
+0.70
+0.16
+celular-multilaser-new-up
+
+samsung-galaxy-a9
+samsung-galaxy-a5
+lg-x-power-dual-chip
+zenfone-go-zb500kg-3h028br
+iphone-se-apple-tela-4
+lg-k10-tv-16gb-índigo-dual-chip-4g
+motorola-moto-g5-32gb-ouro-dual-chip-4g
+
+'link'=>'/categories/'.$category->getidcategory().'?page='.$i,
+
+SELECT * FROM tb_categories a INNER JOIN tb_productscategories b ON a.idcategory = b.idcategory WHERE b.idproduct = :idproduct
+SELECT * FROM tb_categories a INNER JOIN tb_productscategories b ON a.idcategory = b.idcategory WHERE b.idproduct = :idproduct
+
+/*============================================*/
+/*===================GITHUB===================*/
+cd C:\laragon\www\ecommerce
+git init
+git remote add origin https://github.com/benjamin-eccs/ecommerce.git
+/*============================================*/
+/*============================================*/

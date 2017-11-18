@@ -1,0 +1,20 @@
+{
+    "name": "bchoen/ecommerce",
+    "authors": [
+        {
+            "name": "bchoen Treinamentos",
+            "email": "bchoen.eccs@gmail.com"
+        }
+    ],
+    "require": {
+    	"phpmailer/phpmailer":"5.2.22",
+    	"slim/slim":"2.0",
+    	"rain/raintpl":"3.0.0",
+		"symfony/var-dumper": "^3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hcode\\": "vendor\\hcodebr\\php-classes\\src"
+        }
+    }
+}
